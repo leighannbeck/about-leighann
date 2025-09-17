@@ -1,0 +1,66 @@
+body {
+    background-color: #171526;
+    margin: auto;
+    max-width: 90%;
+    margin-top: 5%;
+}
+
+h1, h2, h3 {
+    font-family: "Segoe Script", cursive;
+}
+
+h2, h3 {
+    color: #171526;
+}
+
+h1 {
+    color: lightgray;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    font-family: calibri, sans-serif;
+    letter-spacing: 2px;
+}
+
+.about-container, .hobbies-container {
+    background-color: lightgray;
+    border: 5px double #171526;
+    padding: 20px;
+}
+
+img {
+    max-width: 40%;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+.about-container, .hobbies-container {
+    margin: 5em;
+    max-width: 95%;
+    padding-bottom: 5em;
+}
+
+.about-text-container, .hobbies-text-container {
+    display: inline-block;
+    max-width: 40%;
+    padding: 1em;
+}
+
+.about-image-container, .hobbies-image-container {
+    margin: auto;
+    display: inline-block;
+}
+
+.about-image-container {
+    float: left;
+}
+
+.hobbies-image-container {
+    float: right;
+}
